@@ -1,7 +1,7 @@
 /* Bordered form */
 form {
   border: 3px solid #f1f1f1;
-  max-width: 50%;
+  max-width: 75%;
   display: inline-block;
   text-align: center;  
 }
