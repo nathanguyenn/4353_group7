@@ -1,0 +1,38 @@
+<head>
+    <title>Fuel Quote Form</title>
+    <link rel="stylesheet" href="signup.css">
+    <script src="https://kit.fontawesome.com/afb61f74f2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <form action="action_page.php" style="border:1px solid #ccc">
+        <div class="container">
+        <h1>Fuel Quote Form<i onclick="location.href='user.html'" class='far fa-user-circle'></i></h1>
+        <p>Please fill out the following fields to recieve your quote.</p>
+        <hr>
+    
+        <label for="galReq"><b>Gallons Requested</b></label>
+        <br><br>
+        <input type="number" step="0.01" placeholder="Enter Requested Gallons" name="galReq" required>
+        <br><br>
+        <label for="delivAdd"><b>Delivery Address</b></label>
+        <input type="text" placeholder="( Address from User Profile ) " name="delivAdd" readonly>
+
+        <label for="delivDate"><b>Delivery Date</b></label>
+        <br><br>
+        <input type ="date" placeholder="Enter Full Name" name="delivDate" required>
+        <p>If address is incorrect please fix on <a href="user.html" style="color:dodgerblue">User Profile</a>.</p>
+
+            
+        <label for="suggestedPrice"><b>Suggested Price / gallon:</b></label>
+        <input type="text" placeholder="( Price from Pricing Module )" name="suggestedPrice" readonly>
+
+        <label for="totalAmntDue"><b>Total Amount Due</b></label>
+        <input type="text" placeholder="Please Enter Requested Gallons For Calculations" name="totalAmntDue" readonly>
+    
+        <div class="clearfix">
+            <button type="button" class="cancelbtn" onclick="location.href='history.html'">Fuel Quote History</button>
+            <button type="submit" class="signupbtn">Submit Form</button>
+        </div>
+    </form>
+</body>
