@@ -4,23 +4,44 @@
   -moz-box-sizing: border-box;
 }
 body {
+  background-image: url("4357_Website_Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body {
   font-family: Helvetica;
   -webkit-font-smoothing: antialiased;
   border-radius: 25px;
 }
-h2 {
+h1 {
   text-align: center;
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: black;
   padding: 30px 0;
+  background-color: white;
 }
-
+.table-wrapper {
+  background-color: white;
+}
+button {
+  background-color: #04aa6d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-family: "Trebuchet MS";
+}
 i {
   float: right;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 i:hover {
   opacity: 80%;
   color: #04aa6d;
