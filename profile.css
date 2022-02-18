@@ -1,5 +1,15 @@
-* {
-  box-sizing: border-box;
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family:'Ubuntu',sans-serif ;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	background-image: url('4357_Website_Background.jpg');
 }
 
 /* Full-width input fields */
