@@ -1,0 +1,48 @@
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="profile.css">
+    <script src="https://kit.fontawesome.com/7890dbf088.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <form action="action_page.php" style="border:1px solid #ccc">
+        <div class="container">
+        <h1>User Profile<i class="fa-solid fa-user-pen"></i></h1>
+
+        <hr>
+        <label for="name"><b>Full Name</b></label>
+        <input type="text" placeholder="Enter Full Name" name="name" maxlength="50" required>
+            
+        <label for="ad1"><b>Address 1:</b></label>
+        <input type="text" placeholder="Enter Address 1:" name="ad1" maxlength="100" required>
+
+        <label for="ad2"><b>Address 2:</b></label>
+        <input type="text" placeholder="Enter Address 2(optional):" name="ad2" maxlength="100">
+
+        <label for="city"><b>City</b></label>
+        <input type="text" placeholder="City:" name="city" maxlength="100" required>
+
+        <label for="state">Choose a state:</label>
+        <select name="state" id="state" required>
+          <option value="TX">TX</option>
+          <option value="WA">WA</option>
+          <option value="FL">FL</option>
+          <option value="OH">OH</option>
+          <option value="NV">NV</option>
+          <option value="DC">DC</option>
+          <option value="NY">NY</option>
+          <option value="OK">OK</option>
+        </select>
+
+
+        <label for="zip"><b>Zip code:</b></label>
+        <input type="text" placeholder="Zip code:" name="zip" maxlength="9"minlength="5"  required>
+    
+    
+        <div class="clearfix">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <button onclick="location.href='profile.html'" type="submit" class="signupbtn">Save Profile</button>
+        </div>
+        </div>
+    </form>
+</body>
