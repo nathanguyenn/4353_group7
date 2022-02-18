@@ -1,15 +1,17 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	text-decoration: none;
-	font-family:'Ubuntu',sans-serif ;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
 }
-html{
-	scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-body{
-	background-image: url('4357_Website_Background.jpg');
+body {
+  background-image: url("4357_Website_Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* Bordered form */
 form {
