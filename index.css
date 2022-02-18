@@ -1,19 +1,23 @@
 /* Bordered form */
 form {
   border: 3px solid #f1f1f1;
-  max-width: 75%;
   display: inline-block;
-  text-align: center;  
+  text-align: center;
+  font-family: "Open Sans";
+  border-radius: 25px;
 }
 
 /* Full-width inputs */
-input[type=text], input[type=password] {
+input[type="text"],
+input[type="password"] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
+  font-family: " Open Sans";
+  border-radius: 10px;
 }
 
 /* Set a style for all buttons */
@@ -25,9 +29,23 @@ button {
   border: none;
   cursor: pointer;
   width: 100%;
+  font-family: " Open Sans";
+  border-radius: 40px;
+}
+
+body {
+  font-family: " Open Sans";
+  max-width: 50%;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* Add a hover effect for buttons */
+
 button:hover {
   opacity: 0.8;
 }
@@ -37,6 +55,7 @@ button:hover {
   width: auto;
   padding: 10px 18px;
   background-color: #f44336;
+  font-family: "Trebuchet MS";
 }
 
 /* Center the avatar image inside this container */
@@ -48,7 +67,7 @@ button:hover {
 /* Avatar image */
 img.avatar {
   width: 40%;
-  border-radius: 50%;
+  border-radius: 25px;
 }
 
 /* Add padding to containers */
@@ -59,7 +78,7 @@ img.avatar {
 /* The "Forgot password" text */
 span.psw {
   float: right;
-  padding-top: 16px;
+  padding-bottom: 10px;
 }
 
 /* Change styles for span and cancel button on extra small screens */
